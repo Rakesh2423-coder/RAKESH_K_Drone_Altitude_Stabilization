@@ -1,4 +1,4 @@
-%% DRONE ALTITUDE ANIMATION — Judges LOVE this!
+%% DRONE ALTITUDE ANIMATION —
 G = tf(1,[1 2 5]); C = pid(10,20,3);
 T = feedback(C*G,1);
 t = 0:0.05:10;
